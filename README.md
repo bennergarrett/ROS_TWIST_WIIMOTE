@@ -32,29 +32,10 @@ To run:
 How to use wiimote button  
 
 ```
-Reading from the wiimote and Publishing to Twist!
-This section needs updating....
----------------------------
-Moving around:
-   u    i    o
-   j    k    l
-   m    ,    .
-
-For Holonomic mode (strafing), hold down the shift key:
----------------------------
-   U    I    O
-   J    K    L
-   M    <    >
-
-t : up (+z)
-b : down (-z)
-
-anything else : stop
-
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
-
-CTRL-C to quit
+        1 + 2 simultaneously = connect raspberry pi to wiimote
+        up = forward
+        down = reverse
+        left = turn left
+        right = turn right
+        home button = quit/disconnect
 ```
-
