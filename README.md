@@ -12,6 +12,8 @@ To run:
         git clone https://github.com/bennergarrett/teleop_twist_wiimote
         cd ~/catkin_ws/src/teleop_twist_wiimote
         chmod +x teleop_twist_wiimote.py
+        sudo apt install dos2unix
+        dos2unix teleop_twist_wiimote.py  teleop_twist_wiimote.py 
         cd ~/catkin_ws  
         catkin_make
 ```
@@ -23,9 +25,6 @@ To run:
 ```
          cd ~/catkin_ws  
          . devel/setup.bash  
-         sudo apt install dos2unix
-         roscd teleop_twist_wiimote/
-         dos2unix teleop_twist_wiimote.py  teleop_twist_wiimote.py 
          rosrun teleop_twist_wiimote teleop_twist_wiimote.py  
 ```
 #Usage  
