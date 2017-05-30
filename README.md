@@ -17,6 +17,15 @@ To run:
         cd ~/catkin_ws  
         catkin_make
 ```
+
+#Connecting raspberry pi to iRobot  
+
+```
+         cd create_ws
+         . devel/setup.bash
+          roslaunch ca_driver create_2.launch config:=/home/pi/create_ws/src/create_autonomy/ca_driver/config/default.yaml desc:=false
+```
+
 #Launch  
 You need to make sure you have a roscore running.  
 
