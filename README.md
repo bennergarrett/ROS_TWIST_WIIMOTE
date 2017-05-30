@@ -28,7 +28,7 @@ To run:
 #Usage  
 
 How to use wiimote button  
-push
+
 ```
 Reading from the wiimote and Publishing to Twist!
 This section needs updating....
