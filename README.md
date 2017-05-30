@@ -13,7 +13,7 @@ To run:
         cd ~/catkin_ws/src/teleop_twist_wiimote
         chmod +x teleop_twist_wiimote.py
         sudo apt install dos2unix
-        dos2unix teleop_twist_wiimote.py  teleop_twist_wiimote.py 
+        dos2unix teleop_twist_wiimote.py
         cd ~/catkin_ws  
         catkin_make
 ```
