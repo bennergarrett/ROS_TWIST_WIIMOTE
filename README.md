@@ -23,6 +23,9 @@ To run:
 ```
          cd ~/catkin_ws  
          . devel/setup.bash  
+         sudo apt install dos2unix
+         roscd teleop_twist_wiimote/
+         dos2unix teleop_twist_wiimote.py  teleop_twist_wiimote.py 
          rosrun teleop_twist_wiimote teleop_twist_wiimote.py  
 ```
 #Usage  
